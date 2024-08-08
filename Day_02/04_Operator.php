@@ -4,7 +4,7 @@ echo '<h1>Arithmetic Operators</h1>';
 //Identity
 $a = "10";
 echo '<br>' . $a . ' ' . gettype($a);
-$a = +"10"; // Adding + is help to convert string to integer
+$a = -"10"; // Adding + is help to convert string to integer only on Number
 echo '<br>' . $a . ' ' . gettype($a);
 
 //Negation
@@ -27,5 +27,7 @@ echo '<br> Expo: ' . $base ** $power;
 echo '<h1>Comparison Operators</h1>';
 
 //Equal 
+
+
 
 ?>

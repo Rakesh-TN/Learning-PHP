@@ -51,12 +51,13 @@
     </table>
     <?php
     // Variable Destroyer
-    // unset($gender)
+    #unset($gender);
     
     // display the data with types
     var_dump($firstname);
     var_dump($lastname);
     var_dump($phonenumber);
+    var_dump($gender);
     ?>
 </body>
 
