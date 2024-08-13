@@ -11,7 +11,7 @@
 <body>
     <div class="container my-5">
         <h2>List of Contacts</h2>
-        <a class="btn btn-primary" href="/CRUD/create.php" role="button">New Contact</a>
+        <a class="btn btn-primary" href='/Learning-PHP/CRUD/create.php' role="button">New Contact</a>
         <br/>
         <table class="table">
             <thead>
@@ -63,17 +63,6 @@
                         ";
                     }    
                 ?>
-
-                <tr>
-                    <td>10</td>
-                    <td>Steve</td>
-                    <td>steve@hotmail.com</td>
-                    <td>9876543210</td>
-                    <td>
-                        <a class="btn btn-warning btn-sm" href="/CRUD/edit.php">Edit</a>
-                        <a class="btn btn-danger btn-sm" href="/CRUD/delete.p">Delete</a>
-                    </td>
-                </tr>
             </tbody>
         </table>
     </div>
